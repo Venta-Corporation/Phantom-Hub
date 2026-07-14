@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: #0d0d0d;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #D4AF37;
+    margin: 25px 0 15px;
+}
+
+/* Wallpaper Preview */
+.preview {
+    height: 180px;
+    border-radius: 18px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    border: 1px solid #333;
+}
+
+#previewBox {
+    width: 100%;
+    height: 100%;
+    background: #121212 center / cover no-repeat;
+}
+
+
+/* Color Wallpaper Section */
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.color {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: auto;
+    transition: 0.25s;
+    border: 2px solid transparent;
+}
+
+.color:hover {
+    transform: scale(1.12);
+    border-color: #D4AF37;
+}
+
+
+/* Built-in Wallpaper Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.card {
+    background: #1b1b1b;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.card img{
+    width:100%;
+    aspect-ratio:16/9;
+    object-fit:cover;
+    display:block;
+}
+.card button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #D4AF37;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Gallery Upload */
+.upload-section {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.upload-section button {
+    background: #D4AF37;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Bottom Buttons */
+.bottom-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.bottom-buttons button {
+    flex: 1;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#resetBtn {
+    background: #444;
+    color: white;
+}
+
+#saveBtn {
+    background: #D4AF37;
+    color: black;
+}
+
+
+/* Mobile Responsive */
+@media(max-width:600px){
+
+    body{
+        padding:15px;
+    }
+
+    .color-grid{
+        grid-template-columns:repeat(4,1fr);
+        gap:15px;
+    }
+
+    .color{
+        width:45px;
+        height:45px;
+    }
+
+    .gallery{
+        grid-template-columns:repeat(2,1fr);
+        gap:12px;
+    }
+
+    
+    .bottom-buttons{
+        flex-direction:column;
+    }
+}
+#backBtn{
+    background:#202c33;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:25px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    transition:0.3s;
+    box-shadow:0 3px 10px rgba(0,0,0,0.3);
+}
+
+#backBtn:hover{
+    background:#2f3b43;
+    transform:scale(1.05);
+}
+
+#backBtn:active{
+    transform:scale(0.95);
+}
+/* Rainbow Color Picker */
+#rainbowColor{
+    width:55px;
+    height:55px;
+    border:none;
+    border-radius:50%;
+    cursor:pointer;
+    padding:0;
+    background:none;
+    appearance:none;
+    -webkit-appearance:none;
+}
+
+#rainbowColor::-webkit-color-swatch-wrapper{
+    padding:0;
+}
+
+#rainbowColor::-webkit-color-swatch{
+    border:none;
+    border-radius:50%;
+}
+
+#rainbowColor::-moz-color-swatch{
+    border:none;
+    border-radius:50%;
+}
+
+#rainbowColor:hover{
+    transform:scale(1.12);
+    border:2px solid #D4AF37;
+}

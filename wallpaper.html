@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Venta Wallpapers</title>
+
+<link rel="stylesheet" href="wallpaper.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+
+<button id="backBtn">
+← Back
+</button>
+
+<h1>Wallpaper Gallery</h1>
+
+<p>
+Choose a beautiful wallpaper for your chats.
+</p>
+
+</div>
+
+<div class="preview">
+
+<div id="previewBox"></div>
+
+</div>
+
+<!-- ADD THE COLORS HERE -->
+
+<h2>Solid Colors</h2>
+
+<div class="color-grid">
+
+<div class="color" style="background:#121212" onclick="applyColor('#121212')"></div>
+
+<div class="color" style="background:#1B263B" onclick="applyColor('#1B263B')"></div>
+
+<div class="color" style="background:#23395B" onclick="applyColor('#23395B')"></div>
+
+<div class="color" style="background:#243B2F" onclick="applyColor('#243B2F')"></div>
+
+<div class="color" style="background:#355E3B" onclick="applyColor('#355E3B')"></div>
+
+<div class="color" style="background:#2E2A47" onclick="applyColor('#2E2A47')"></div>
+
+<div class="color" style="background:#4A2C40" onclick="applyColor('#4A2C40')"></div>
+
+<div class="color" style="background:#5A3E2B" onclick="applyColor('#5A3E2B')"></div>
+
+<div class="color" style="background:#374151" onclick="applyColor('#374151')"></div>
+
+<div class="color" style="background:#0F766E" onclick="applyColor('#0F766E')"></div>
+
+<div class="color" style="background:#1E3A8A" onclick="applyColor('#1E3A8A')"></div>
+
+<div class="color" style="background:#D4AF37;border:2px solid #fff;" onclick="applyColor('#D4AF37')"></div>
+
+<!--The code for a color line which is not working the code is in js files plz check it out -->
+
+<input
+    type="color"
+    id="rainbowColor"
+    value="#121212"
+    onchange="applyColor(this.value)">
+</div>
+
+
+<h2>Premium Wallpapers</h2>
+
+<div class="gallery">
+<div class="card"
+onclick="applyWallpaper('assets/wallpapers/wall1.jpeg','Wallpaper 1')">
+
+<img src="assets/wallpapers/wall1.jpeg">
+
+</div>
+
+
+<div class="card"
+onclick="applyWallpaper('assets/wallpapers/wall2.jpeg','Wallpaper 1')">
+
+<img src="assets/wallpapers/wall2.jpeg">
+
+</div>
+<div class="card"
+onclick="applyWallpaper('assets/wallpapers/wall3.jpeg','Wallpaper 1')">
+
+<img src="assets/wallpapers/wall3.jpeg">
+
+</div>
+
+<div class="card"
+onclick="applyWallpaper('assets/wallpapers/wall4.jpeg','Wallpaper 1')">
+
+<img src="assets/wallpapers/wall4.jpeg">
+
+</div>
+
+<div class="card"
+onclick="applyWallpaper('assets/wallpapers/wall5.jpeg','Wallpaper 1')">
+
+<img src="assets/wallpapers/wall5.jpeg">
+
+</div>
+<div class="card"
+onclick="applyWallpaper('assets/wallpapers/wall6.jpeg','Wallpaper 1')">
+
+<img src="assets/wallpapers/wall6.jpeg">
+
+</div>
+
+
+<div class="card"
+onclick="applyWallpaper('assets/wallpapers/wall7.jpeg','Wallpaper 1')">
+
+<img src="assets/wallpapers/wall7.jpeg">
+
+</div>
+<div class="card"
+onclick="applyWallpaper('assets/wallpapers/wall8.jpeg','Wallpaper 1')">
+
+<img src="assets/wallpapers/wall8.jpeg">
+
+</div>
+
+<div class="card"
+onclick="applyWallpaper('assets/wallpapers/wall9.jpeg','Wallpaper 1')">
+
+<img src="assets/wallpapers/wall9.jpeg">
+
+</div>
+
+<div class="card"
+onclick="applyWallpaper('assets/wallpapers/wall10.jpeg','Wallpaper 1')">
+
+<img src="assets/wallpapers/wall10.jpeg">
+
+</div>
+<div class="card"
+onclick="applyWallpaper('assets/wallpapers/wall11.jpeg','Wallpaper 1')">
+
+<img src="assets/wallpapers/wall11.jpeg">
+
+</div>
+
+<div class="card"
+onclick="applyWallpaper('assets/wallpapers/wall12.jpeg','Wallpaper 1')">
+
+<img src="assets/wallpapers/wall12.jpeg">
+
+</div>
+</div>
+
+
+<h2>Custom Wallpaper</h2>
+
+<div class="upload-section">
+
+<input
+type="file"
+id="galleryPicker"
+accept="image/*"
+hidden>
+
+<button onclick="document.getElementById('galleryPicker').click()">
+📷 Choose From Gallery
+</button>
+
+</div>
+
+<div class="bottom-buttons">
+
+<button id="resetBtn">
+Reset Wallpaper
+</button>
+
+<button id="saveBtn">
+Save
+</button>
+
+</div>
+
+</div>
+
+<script src="wallpaper.js"></script>
+
+</body>
+</html>

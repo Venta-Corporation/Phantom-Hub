@@ -1,0 +1,175 @@
+# PHANTOM MESSAGING PROPRIETARY LICENSE
+Version 1.0
+
+Copyright (c) 2026 Venta Corporation
+
+Phantom Messaging is a proprietary software product developed, owned,
+managed, and operated under Venta Corporation.
+
+Founder and Owner:
+S Mohammed Azam
+
+All Rights Reserved.
+
+PHANTOM MESSAGING, including but not limited to its source code, object code,
+APIs, backend services, databases, documentation, user interfaces, designs,
+algorithms, trademarks, logos, and all related materials, is the exclusive
+property of S Mohammed Azam.
+
+-------------------------------------------------------------------------------
+1. OWNERSHIP
+-------------------------------------------------------------------------------
+
+Phantom Messaging and all associated intellectual property rights,
+including source code, documentation, APIs, databases, designs,
+algorithms, trademarks, and related materials, are the exclusive
+property of Venta Corporation. 
+
+Venta Corporation is represented by its Founder and Owner,
+S Mohammed Azam.
+
+No ownership rights are transferred to any developer, contributor,
+contractor, organization, or third party.
+
+Any modifications, improvements, bug fixes, updates, or contributions
+made to the Software automatically become the exclusive property of
+Venta Corporation.
+
+-------------------------------------------------------------------------------
+2. AUTHORIZED ACCESS
+-------------------------------------------------------------------------------
+
+Access to the source code is restricted only to:
+
+- S Mohammed Azam (Owner)
+- P Akram Danish (Authorized Developer)
+- Other developers expressly approved in writing by S Mohammed Azam
+
+Any unauthorized access, copying, viewing, downloading, sharing, or
+distribution is strictly prohibited.
+
+-------------------------------------------------------------------------------
+3. CONFIDENTIALITY
+-------------------------------------------------------------------------------
+
+All source code, databases, security systems, documentation, credentials,
+internal communications, development discussions, business plans, project
+roadmaps, and unreleased features are CONFIDENTIAL INFORMATION.
+
+Authorized developers shall:
+
+- Keep all confidential information private.
+- Use confidential information only for project development.
+- Prevent unauthorized access.
+- Never disclose confidential information to any third party.
+
+These obligations continue indefinitely, even after leaving the project.
+
+-------------------------------------------------------------------------------
+4. PROHIBITED ACTIVITIES
+-------------------------------------------------------------------------------
+
+Without written permission from S Mohammed Azam, no person may:
+
+- Copy the source code.
+- Publish the source code.
+- Upload the source code to public repositories.
+- Share the source code with any third party.
+- Redistribute the software.
+- Reverse engineer the software.
+- Create derivative competing products.
+- Remove copyright notices.
+- Use project assets outside authorized work.
+
+-------------------------------------------------------------------------------
+5. DEVELOPER NON-DISCLOSURE OBLIGATION
+-------------------------------------------------------------------------------
+
+Every developer, contributor, contractor, or collaborator agrees that:
+
+- All project materials are confidential.
+- Internal discussions are confidential.
+- Source code is confidential.
+- Security implementations are confidential.
+- User information is confidential.
+
+Disclosure of any confidential information without written authorization
+constitutes a material breach of this License.
+
+-------------------------------------------------------------------------------
+6. DATA LEAKS AND SECURITY VIOLATIONS
+-------------------------------------------------------------------------------
+
+Any developer who intentionally or negligently:
+
+- Leaks source code,
+- Shares confidential information,
+- Exposes credentials,
+- Publishes internal documentation,
+- Grants unauthorized access,
+
+shall immediately lose all access rights and may be held liable for any
+damages, losses, or legal consequences permitted under applicable law.
+
+-------------------------------------------------------------------------------
+7. CONTRIBUTIONS
+-------------------------------------------------------------------------------
+
+By contributing to Phantom Messaging, the contributor assigns all rights,
+titles, and interests in their contributions to S Mohammed Azam.
+
+All contributions become part of the proprietary software.
+
+-------------------------------------------------------------------------------
+8. NO OPEN SOURCE RIGHTS
+-------------------------------------------------------------------------------
+
+This Software is NOT Open Source.
+
+No permission is granted to:
+
+- Modify for public use
+- Redistribute
+- Resell
+- Publish source code
+- Host public forks
+- Create public mirrors
+
+except where explicitly authorized in writing by S Mohammed Azam.
+
+-------------------------------------------------------------------------------
+9. TERMINATION
+-------------------------------------------------------------------------------
+
+Any violation of this License immediately terminates all permissions granted.
+
+Upon termination, the individual must:
+
+- Stop using the Software.
+- Delete all copies.
+- Return confidential materials.
+- Remove access credentials.
+- Destroy unauthorized backups.
+
+-------------------------------------------------------------------------------
+10. RESERVATION OF RIGHTS
+-------------------------------------------------------------------------------
+
+All rights not expressly granted under this License are reserved by
+S Mohammed Azam.
+
+-------------------------------------------------------------------------------
+11. ACCEPTANCE
+-------------------------------------------------------------------------------
+
+By accessing, viewing, modifying, compiling, testing, contributing to,
+or otherwise interacting with Phantom Messaging, the individual agrees
+to be bound by the terms of this License.
+
+Project Owner:
+S Mohammed Azam
+
+Authorized Developer:
+P Akram Danish
+
+All Rights Reserved.
